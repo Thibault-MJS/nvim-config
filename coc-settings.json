@@ -4,7 +4,8 @@
   "explorer.position": "floating",
   "explorer.keyMappings.global": {
     "<LEFT>": ["wait", "collapse"],
-    "<RIGHT>": ["wait", "expandable?", "expand", "open"]
+    "<RIGHT>": ["wait", "expandable?", "expand", "open"],
+    "<C-d>": "addDirectory"
   }
 }
 

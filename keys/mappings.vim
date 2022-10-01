@@ -22,6 +22,7 @@ nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
+nnoremap <C-o> :CocCommand explorer<CR>
 nnoremap <C-f> :Files<CR>
 
 " Better tabbing
