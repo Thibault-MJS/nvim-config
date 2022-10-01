@@ -1,0 +1,10 @@
+{
+  "explorer.width": 30,
+  "coc.preferences.formatOnSaveFiletypes": ["markdown", "javascript", "html", "typescript"],
+  "explorer.position": "floating",
+  "explorer.keyMappings.global": {
+    "<LEFT>": ["wait", "collapse"],
+    "<RIGHT>": ["wait", "expandable?", "expand", "open"]
+  }
+}
+
