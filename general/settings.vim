@@ -1,6 +1,7 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
+let g:airline_powerline_fonts = 1
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
@@ -35,6 +36,8 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 "set autochdir                           " Your working directory will always be the same as your working directory
 source $VIMRUNTIME/mswin.vim
+set guifont=FiraMono\ Nerd\ Font\ 11
+
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 let g:netrw_fastbrowse = 0
